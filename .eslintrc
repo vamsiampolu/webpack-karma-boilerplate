@@ -1,0 +1,12 @@
+{
+  "env":{
+    "node":true,
+    "browser":true,
+    "mocha":true
+  },
+  "parser":"babel-eslint",
+  "plugins":[
+    "react"
+  ],
+  "extends":["eslint:recommended","plugin:react/recommended"]
+}
